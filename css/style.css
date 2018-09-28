@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Handlee|Source+Serif+Pro');
+
+body{
+	font-family: 'Source Serif Pro', serif;
+	}
+
+nav {
+	background-color: #007396;
+	}
+
+.nav-link {
+	color: whitesmoke !important;
+	font-size: 18px;
+	margin: 5px;
+}
+
+.nav-link:hover{
+ font-size: 20px;
+ color: whitesmoke;
+}
+
+.navbar-toggler-icon {
+	background-color:#D3D3D3;
+	}
+
+.myPic {
+	height: 150px;
+	border-radius: 50%;
+}
+
+.container-fluid {
+	width: 1366px;
+}
+
+section{
+	margin: 50px;
+}
+
+h1 {
+	font-family: 'Handlee', cursive;
+	font-size: 58px;
+	color: #007396;
+}
+
+h2 {
+	font-family: 'Handlee', cursive;
+}
+
+hr{
+	/* color: #967D00; */
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px lightslategray inset;
+}
+
+.card-title {
+	background: #007396;
+	color: #ffffff;
+	font-size: 24px;
+	padding: 10px;
+	text-align: center;
+}
+
+.github {
+	margin: 10px;
+}
