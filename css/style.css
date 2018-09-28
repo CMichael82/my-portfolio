@@ -5,7 +5,7 @@ body{
 	}
 
 nav {
-	background-color: #007396;
+	background-color: #006272;
 	}
 
 .nav-link {
@@ -28,10 +28,6 @@ nav {
 	border-radius: 50%;
 }
 
-.container-fluid {
-	width: 1366px;
-}
-
 section{
 	margin: 50px;
 }
@@ -39,11 +35,12 @@ section{
 h1 {
 	font-family: 'Handlee', cursive;
 	font-size: 58px;
-	color: #007396;
+	color: #006272;
 }
 
 h2 {
 	font-family: 'Handlee', cursive;
+	color: #006272;
 }
 
 hr{
@@ -54,7 +51,7 @@ hr{
 }
 
 .card-title {
-	background: #007396;
+	background: #006272;
 	color: #ffffff;
 	font-size: 24px;
 	padding: 10px;
@@ -63,4 +60,8 @@ hr{
 
 .github {
 	margin: 10px;
+}
+
+a {
+	color: #006272;
 }
