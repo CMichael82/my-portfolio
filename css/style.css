@@ -6,6 +6,7 @@ body{
 
 nav {
 	background-color: #006272;
+	border-bottom: 5px solid #AAB3BC;
 	}
 
 .nav-link {
@@ -26,6 +27,7 @@ nav {
 .myPic {
 	height: 150px;
 	border-radius: 50%;
+	border: 1px solid #AAB3BC;
 }
 
 section{
@@ -33,6 +35,7 @@ section{
 }
 
 h1 {
+	text-shadow: 4px 3px #C6CCD3;
 	font-family: 'Handlee', cursive;
 	font-size: 58px;
 	color: #006272;
@@ -41,13 +44,27 @@ h1 {
 h2 {
 	font-family: 'Handlee', cursive;
 	color: #006272;
+	font-size: 48px;
+}
+
+
+h6 {
+	font-style: italic;
 }
 
 hr{
-	/* color: #967D00; */
 	height: 10px;
 	border: 0;
-	box-shadow: 0 10px 10px -10px lightslategray inset;
+	box-shadow: 0 10px 10px -10px #AAB3BC inset;
+}
+
+p {
+	line-height: 1.5;
+	font-size: 18px;
+}
+
+.card {
+	border: 2px solid #AAB3BC;
 }
 
 .card-title {
@@ -64,4 +81,15 @@ hr{
 
 a {
 	color: #006272;
+}
+
+.toTop{
+	display: block;
+	margin-top: 15px;
+	text-align: right;
+	color: #720062;
+}
+
+.contact {
+	color: #720062;
 }
