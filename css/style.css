@@ -9,8 +9,14 @@ nav {
 	border-bottom: 5px solid #AAB3BC;
 }
 
-a, h4 {
+a {
+	font-size: 18px;
 	color: #720062;
+}
+
+a:visited {
+	color: black;
+	font-style: italic;
 }
 
 section{
@@ -37,7 +43,7 @@ h6 {
 
 hr{
 	border: 0;
-	box-shadow: 0 10px 10px -10px #AAB3BC inset;
+	box-shadow: 0 20px 20px -20px #AAB3BC inset;
 	height: 10px;
 }
 
@@ -66,10 +72,6 @@ p {
 	height: 100px;
 }
 
-.blueRidge{
-	margin-right: 30px;
-}
-
 .toTop{
 	color: #720062;
 	display: block;
@@ -78,7 +80,11 @@ p {
 }
 
 .card {
-	border: 2px solid #AAB3BC;
+	border: 3px solid #AAB3BC;
+}
+
+.card:hover{
+background-color: #D3D3D3;
 }
 
 .card-title {
