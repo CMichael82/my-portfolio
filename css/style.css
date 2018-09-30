@@ -4,10 +4,6 @@ body{
 	font-family: 'Source Serif Pro', serif;
 }
 
-nav {
-	background-color: #00718F;
-	border-bottom: 5px solid #AAB3BC;
-}
 
 a {
 	font-size: 18px;
@@ -27,10 +23,10 @@ section{
 h1 {
 	color: #00718F;
 	font-family: 'Handlee', cursive;
-	font-size: 38px;
-	text-shadow: 4px 3px #C6CCD3;
+	font-size: 42px;
+	text-shadow: 4px 3px #D3D3D3;
 }
-	
+
 h2 {
 	color: #00718F;
 	font-family: 'Handlee', cursive;
@@ -52,25 +48,30 @@ p {
 	font-size: 18px;
 }
 
+/* Navbar styling Starts */
+nav {
+	background-color: #00718F;
+}
+
 .nav-link {
 	color: whitesmoke !important;
-	font-size: 18px;
 	margin: 5px;
 }
 
 .nav-link:hover{
-	color: whitesmoke;
-	font-size: 20px;
+	text-transform: uppercase;
 }
 
 .navbar-toggler-icon {
-	background-color:#D3D3D3;
-	}
+	background-color:#AAB3BC;
+}
 
 .myPic {
-	border-radius: 50%;
+	border-radius: 20%;
+	border: 2px solid #00495C;
 	height: 100px;
 }
+/* Navbar styling ENDS */
 
 .toTop{
 	color: #720062;
@@ -79,6 +80,44 @@ p {
 	text-align: right;
 }
 
+/* Create a image tag on hover - STARTS*/
+.imgBox {
+	position: relative;
+}
+
+.imgCenter {
+transition: 1.5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.imgBox:hover .imgCenter {
+opacity: 1;
+}
+
+.imgText {
+background-color: #720062;
+color: white;
+font-size: 14px;
+padding: 10px 20px;
+}
+/* Create a image tag on hover - ENDS*/
+
+.owl {
+	height: 60px;
+}
+
+.owl:hover{
+	transition: 3s ease;
+	transform: scaleX(1.15)
+}
+
+/* Portfolio Card Styling - STARTS */
 .card {
 	border: 3px solid #AAB3BC;
 }
@@ -104,7 +143,9 @@ background-color: #D3D3D3;
 	display: block;
 	margin: 10px;
 }
+/* Portfolio Card Styling - STARTS */
 
+/* Resize contact icons */
 .linkedin{
 	height: 50px;
 }
@@ -112,4 +153,3 @@ background-color: #D3D3D3;
 .email {
 	height: 40px;
 }
-
