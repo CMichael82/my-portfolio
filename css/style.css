@@ -2,12 +2,49 @@
 
 body{
 	font-family: 'Source Serif Pro', serif;
-	}
+}
 
 nav {
-	background-color: #006272;
+	background-color: #00967D;
 	border-bottom: 5px solid #AAB3BC;
-	}
+}
+
+a, h4 {
+	color: #720062;
+}
+
+section{
+	margin: 50px;
+	padding: 20px;
+}
+
+h1 {
+	text-shadow: 4px 3px #C6CCD3;
+	font-family: 'Handlee', cursive;
+	font-size: 48px;
+	color: #006272;
+}
+	
+h2 {
+	font-family: 'Handlee', cursive;
+	color: #006272;
+	font-size: 48px;
+}
+
+h6 {
+	font-style: italic;
+}
+
+hr{
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #AAB3BC inset;
+}
+
+p {
+	line-height: 1.5;
+	font-size: 18px;
+}
 
 .nav-link {
 	color: whitesmoke !important;
@@ -30,37 +67,8 @@ nav {
 	border: 1px solid #AAB3BC;
 }
 
-section{
-	margin: 50px;
-}
-
-h1 {
-	text-shadow: 4px 3px #C6CCD3;
-	font-family: 'Handlee', cursive;
-	font-size: 58px;
-	color: #006272;
-}
-
-h2 {
-	font-family: 'Handlee', cursive;
-	color: #006272;
-	font-size: 48px;
-}
-
-
-h6 {
-	font-style: italic;
-}
-
-hr{
-	height: 10px;
-	border: 0;
-	box-shadow: 0 10px 10px -10px #AAB3BC inset;
-}
-
-p {
-	line-height: 1.5;
-	font-size: 18px;
+.blueRidge{
+	margin-right: 30px;
 }
 
 .card {
@@ -68,7 +76,7 @@ p {
 }
 
 .card-title {
-	background: #006272;
+	background: #00967D;
 	color: #ffffff;
 	font-size: 24px;
 	padding: 10px;
@@ -76,12 +84,15 @@ p {
 }
 
 .github {
+	display: block;
 	margin: 10px;
 }
 
-a {
-	color: #006272;
+.techUsed{
+	font-style: italic;
+	font-size: 16px;
 }
+
 
 .toTop{
 	display: block;
