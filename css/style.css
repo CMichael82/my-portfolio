@@ -99,6 +99,11 @@ p {
 	margin: 10px;
 }
 
-.contact {
-	color: #720062;
+.linkedin{
+	height: 50px;
 }
+
+.email {
+	height: 40px;
+}
+
