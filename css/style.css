@@ -52,6 +52,11 @@ p {
 	font-size: 18px;
 }
 
+.note {
+	font-size: 12px;
+	font-style: italic;
+}
+
 .toTop{
 	color: #720062;
 	display: block;
