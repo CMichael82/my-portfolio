@@ -5,7 +5,7 @@ body{
 }
 
 nav {
-	background-color: #00967D;
+	background-color: #00718F;
 	border-bottom: 5px solid #AAB3BC;
 }
 
@@ -19,15 +19,15 @@ section{
 }
 
 h1 {
-	text-shadow: 4px 3px #C6CCD3;
+	color: #00718F;
 	font-family: 'Handlee', cursive;
 	font-size: 48px;
-	color: #006272;
+	text-shadow: 4px 3px #C6CCD3;
 }
 	
 h2 {
+	color: #00718F;
 	font-family: 'Handlee', cursive;
-	color: #006272;
 	font-size: 48px;
 }
 
@@ -36,9 +36,9 @@ h6 {
 }
 
 hr{
-	height: 10px;
 	border: 0;
 	box-shadow: 0 10px 10px -10px #AAB3BC inset;
+	height: 10px;
 }
 
 p {
@@ -53,8 +53,8 @@ p {
 }
 
 .nav-link:hover{
- font-size: 20px;
- color: whitesmoke;
+	color: whitesmoke;
+	font-size: 20px;
 }
 
 .navbar-toggler-icon {
@@ -62,13 +62,19 @@ p {
 	}
 
 .myPic {
-	height: 150px;
 	border-radius: 50%;
-	border: 1px solid #AAB3BC;
+	height: 100px;
 }
 
 .blueRidge{
 	margin-right: 30px;
+}
+
+.toTop{
+	color: #720062;
+	display: block;
+	margin-top: 15px;
+	text-align: right;
 }
 
 .card {
@@ -76,29 +82,21 @@ p {
 }
 
 .card-title {
-	background: #00967D;
+	background: #00718F;
 	color: #ffffff;
 	font-size: 24px;
 	padding: 10px;
 	text-align: center;
 }
 
+.techUsed{
+	font-size: 16px;
+	font-style: italic;
+}
+
 .github {
 	display: block;
 	margin: 10px;
-}
-
-.techUsed{
-	font-style: italic;
-	font-size: 16px;
-}
-
-
-.toTop{
-	display: block;
-	margin-top: 15px;
-	text-align: right;
-	color: #720062;
 }
 
 .contact {
