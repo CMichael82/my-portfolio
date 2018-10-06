@@ -1,8 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Handlee|Source+Serif+Pro');
+@import url('https://fonts.googleapis.com/css?family=Handlee|Source+Sans+Pro:600');
 
 body{
-	font-family: 'Source Serif Pro', serif;
-	color: #5A6673;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #454545;
+	background-image: url(../images/poppy.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-attachment: fixed;
 }
 
 a {
@@ -11,30 +15,32 @@ a {
 }
 
 a:visited {
-	color: black;
+	color:#008000;
 	font-style: italic;
 }
 
 section{
+	background-color: rgba(225, 225, 225, 0.72);	
+	border: 1px solid #8B4513;
 	margin: 50px;
 	padding: 20px;
 }
 
 h1 {
-	color: #00718F;
+	color: #CC1400;
 	font-family: 'Handlee', cursive;
-	font-size: 42px;
-	text-shadow: 4px 3px #D3D3D3;
+	font-size: 46px;
+	text-shadow: 4px 3px #B9B9B9;
 }
 
 h2 {
-	color: #00718F;
+	color: #990F00;
 	font-family: 'Handlee', cursive;
 	font-size: 48px;
 }
 
-h5 {
-	color: #720062;
+h4, h5 {
+	color: #990F00;
 }
 
 h6 {
@@ -42,8 +48,7 @@ h6 {
 }
 
 hr{
-	border: 0;
-	box-shadow: 0 20px 20px -20px #AAB3BC inset;
+	box-shadow: 0 10px 10px -10px #990F00 inset;
 	height: 10px;
 }
 
@@ -57,8 +62,8 @@ p {
 	font-style: italic;
 }
 
-.toTop{
-	color: #720062;
+#toTop{
+	color: #008000;
 	display: block;
 	margin-top: 15px;
 	text-align: right;
@@ -66,11 +71,13 @@ p {
 
 /* Navbar styling Starts */
 nav {
-	background-color: #00718F;
+	background-image: url(../images/wood.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .nav-link {
-	color: whitesmoke !important;
+	color:whitesmoke !important;
 	margin: 5px;
 }
 
@@ -79,7 +86,7 @@ nav {
 }
 
 .navbar-toggler-icon {
-	background-color:#AAB3BC;
+	background-color: whitesmoke;
 }
 
 .myPic {
@@ -90,9 +97,9 @@ nav {
 /* Navbar styling ENDS */
 
 /* Create a image tag on hover - STARTS*/
-.camping{
-  max-width:95%;
-  height:auto;
+.blueRidge {
+	border: 3px solid #8B4513;
+	margin-top: 55px;
 }
 
 .imgBox {
@@ -100,25 +107,25 @@ nav {
 }
 
 .imgCenter {
-transition: 1.5s ease;
-opacity: 0;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
--ms-transform: translate(-50%, -50%);
-text-align: center;
+	transition: 1.5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
 }
 
 .imgBox:hover .imgCenter {
-opacity: 1;
+	opacity: 1;
 }
 
 .imgText {
-background-color: #720062;
-color: white;
-font-size: 14px;
-padding: 10px 20px;
+	background-color: #990F00;
+	color: whitesmoke;
+	font-size: 14px;
+	padding: 20px 20px;
 }
 /* Create a image tag on hover - ENDS*/
 
@@ -135,15 +142,16 @@ padding: 10px 20px;
 
 /* Portfolio Card Styling - STARTS */
 .card {
-	border: 3px solid #AAB3BC;
+	position: relative;
+	border: 3px solid #8B4513;
 }
 
 .card:hover{
-background-color: #D3D3D3;
+	background-color: #D2D2D2 ;
 }
 
 .card-title {
-	background: #00718F;
+	background: #990F00;
 	color: #ffffff;
 	font-size: 24px;
 	padding: 10px;
@@ -153,19 +161,36 @@ background-color: #D3D3D3;
 .techUsed{
 	font-size: 16px;
 	font-style: italic;
-}
+	}
 
 .github {
+	position: absolute;
+	bottom: 1px;
+	right: 10px;
 	display: block;
-	margin: 10px;
+	margin: 20px;
+	height: 50px;
+	
 }
 /* Portfolio Card Styling - STARTS */
 
 /* Resize contact icons */
-.linkedin{
+.contactGit {
 	height: 50px;
 }
 
-.email {
-	height: 40px;
+.linkedin{
+	height: 50px;
+	margin: 20px;
 }
+
+.email {
+	height: 45px;
+	margin: 5px;
+}
+
+.icon:hover {
+	box-sizing: border-box;
+	background-color: whitesmoke;
+	padding: 10px;
+	}

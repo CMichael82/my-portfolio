@@ -14,8 +14,7 @@
 <body>
 	<a id="top"></a>
 	<nav class="navbar navbar-expand-sm navbar-light">
-		<!-- <a class="navbar-brand"><img src="./images/Carolyn.jpg" alt="Carolyn" class="img-fluid myPic"></a> -->
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
 		 aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -38,33 +37,25 @@
 	</nav>
 
 	<!-- Main content -->
-	<div class="container-fluid">
+	<div class="container-fluid tinted-image">
 
 		<!-- About Me Section START -->
 		<section id="aboutMe">
 			<br>
 			<div class="row">
 				<div class="col-md-5">
-						<br>
+					<br><br><br>
 					<div class="imgBox">
-						<img src="./images/blue-ridge.jpg" alt="Blue Ridge Mountains" class="img-fluid camping">
+						<img src="./images/blue-ridge.jpg" alt="Blue Ridge Mountains" class="img-fluid blueRidge">
 						<div class="imgCenter">
 							<div class="imgText">Blue Ridge Mountains, VA</div>
 						</div>
 					</div>
-					<br><br>
-					<div class="imgBox">
-						<img src="./images/zion.jpg" alt="Zion" class="img-fluid camping">
-						<div class="imgCenter">
-							<div class="imgText">Zion National Park</div>
-						</div>
-					</div>
-
 				</div>
-
 				<div class="col-md-7">
+					<br>
 					<h1 class="text-center"><strong>CAROLYN MICHAEL</strong></h1>
-					<br><br>
+					<br>
 					<h5><strong>Hometown:</strong></h5>
 					<p>Mount Sidney, VA</p>
 					<h5><strong>Currently Resides:</strong></h5>
@@ -80,11 +71,11 @@
 					<h5><strong>Why Web Development?</strong></h5>
 					<p>Web development is a field that is complex, challenging, and constantly changing. For some this might be
 						considered a determent, but for me it is what drew me to coding. I enjoy learning new skills, finding solutions
-						to problems, and using creativity along with logic to build something new. </p>
+						to problems, and using creativity along with logic to build something new.</p>
 				</div>
 			</div>
 
-			<a href="#top" class="toTop">Back to Top</a>
+			<a href="#top" id="toTop">Back to Top</a>
 		</section>
 		<!-- About Me Section END -->
 		<hr>
@@ -150,7 +141,7 @@
 				</div>
 			</div>
 
-			<a href="#top" class="toTop">Back to Top</a>
+			<a href="#top" id="toTop">Back to Top</a>
 		</section>
 		<!-- Education Section END -->
 		<hr>
@@ -172,7 +163,7 @@
 								(update pending)</p>
 							<a href="https://cmichael82.github.io/Word-Guess-Game/" target="_blank">View Site</a>
 							<a href="https://github.com/CMichael82/Word-Guess-Game" target="_blank">
-								<img src="./images/GitHub-Mark-32px.png" alt="github" class="github">
+								<img src="./images/gitHub.png" alt="github" class="github">
 							</a>
 						</div>
 					</div>
@@ -188,7 +179,7 @@
 							<p class="techUsed">HTML, CSS, JavaScript, and JQuery</p>
 							<a href="https://cmichael82.github.io/unit-4-game/" target="_blank">View Site</a>
 							<a href="https://github.com/CMichael82/unit-4-game" target="_blank">
-								<img src="./images/GitHub-Mark-32px.png" alt="github" class="github"></a>
+								<img src="./images/gitHub.png" alt="github" class="github"></a>
 						</div>
 					</div>
 				</div>
@@ -202,7 +193,7 @@
 							<p class="techUsed">HTML, Bootstrap, CSS, JavaScript, and JQuery</p>
 							<a href="https://cmichael82.github.io/TriviaGame/" target="_blank">View Site</a>
 							<a href="https://github.com/CMichael82/TriviaGame" target="_blank">
-								<img src="./images/GitHub-Mark-32px.png" alt="github" class="github"></a>
+								<img src="./images/gitHub.png" alt="github" class="github"></a>
 						</div>
 					</div>
 				</div>
@@ -217,7 +208,7 @@
 							<p class="techUsed">HTML, Bootstrap, CSS, JavaScript, JQuery, Giphy API, & OMDB API</p>
 							<a href="https://cmichael82.github.io/GifTastic/" target="_blank">View Site</a>
 							<a href="https://github.com/CMichael82/GifTastic" target="_blank">
-								<img src="./images/GitHub-Mark-32px.png" alt="github" class="github"></a>
+								<img src="./images/gitHub.png" alt="github" class="github"></a>
 						</div>
 					</div>
 				</div>
@@ -232,7 +223,7 @@
 							<p class="techUsed">HTML, Bootstrap, CSS, JavaScript, JQuery, Firebase, & Moment.js</p>
 							<a href="https://cmichael82.github.io/TrainTimes/" target="_blank">View Site </a>
 							<a href="https://github.com/CMichael82/TrainTimes" target="_blank">
-								<img src="./images/GitHub-Mark-32px.png" alt="github" class="github"></a>
+								<img src="./images/gitHub.png" alt="github" class="github"></a>
 						</div>
 					</div>
 				</div>
@@ -246,13 +237,29 @@
 							<p class="techUsed">HTML, Bootstrap, CSS, JavaScript, JQuery, Firebase, Freesound API, & Parsley.js</p>
 							<a href="https://sdennisp25.github.io/fixedsigns/" target="_blank">View Site</a>
 							<a href="https://github.com/sdennisp25/fixedsigns" target="_blank">
-								<img src="./images/GitHub-Mark-32px.png" alt="github" class="github"></a>
+								<img src="./images/gitHub.png" alt="github" class="github"></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4 py-2">
+					<div class="card card-body h-100">
+						<h2 class="card-title">LIRI Bot</h2>
+						<img src="./images/node-js.png" alt="Node" class="card-img img-fluid">
+						<div class="card-body">
+							<p class="card-text">A Language Interpretation and Recognition Interface (LIRI) that uses node in the command
+								line to take in parameters and return data for concerts, movies, & songs.</p>
+							<p class="techUsed">Javascript, Node.js, Node-Spotify-API, Requests wit OMDB API & Bands in Town API, Moment.js,
+								& DotEnv</p>
+							<p class="note">No Site: Command Line Based</p>
+							<a href="https://github.com/CMichael82/liri-node-app" target="_blank">
+								<img src="./images/gitHub.png" alt="github" class="github"></a>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<a href="#top" class="toTop">Back to Top</a>
+			<a href="#top" id="toTop">Back to Top</a>
 		</section>
 		<!-- Portfolio Section END -->
 		<hr>
@@ -260,16 +267,20 @@
 		<section id="contact">
 			<h2 class="text-center">Contact Me</h2>
 			<div class="text-center">
-				<img  src="./images/Carolyn.jpg" alt="Carolyn" class="img-fluid 
-				myPic"></div>
-				<br>
-			<div class="text-center">
-				<a href="https://github.com/CMichael82" target="_blank"><img src="./images/GitHub-Mark-32px.png" alt="github"></a>
+				<a href="https://github.com/CMichael82" target="_blank"><img src="./images/gitHub.png" alt="github" class="contactGit icon"></a>
 				<a href="https://www.linkedin.com/in/carolyn-michael-3713aa22" target="_blank"><img src="./images/linkedin.png" alt="linkedin"
-					 class="linkedin"></a>
-				<a href="mailto:carolie9182@gmail.com"><img src="./images/email.png" alt="email" class="email"></a>
+					 class="linkedin icon"></a>
+				<a href="mailto:carolie9182@gmail.com"><img src="./images/email.png" alt="email" class="email icon"></a>
 			</div>
-			<a href="#top" class="toTop">Back to Top</a>
+			<br>
+			<div class="text-center">
+				<img src="./images/Carolyn.jpg" alt="Carolyn" class="img-fluid 
+				myPic">
+			</div>
+			<br>
+			<h4 class="text-center">Thank you for your interest!</h4>
+			<br>
+			<a href="#top" id="toTop">Back to Top</a>
 		</section>
 		<!-- Contact Me Section END -->
 	</div>
@@ -278,6 +289,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<script src="./js/logic.js"></script>
 
 </body>
 
