@@ -8,7 +8,10 @@ This is my personal portfolio and is a work in progress as I complete the Coding
 * Bootstrap
 * Javascript
 * JQuery
-* APIs (Ajax/JSON)
+* APIs (Ajax/JSON) - Spotify, Freesound, BandsInTown, OMDB
+* Node.js
+* Moment.js
+* Inquirer NPM
 * Git
 * Mobile Responsiveness
 
