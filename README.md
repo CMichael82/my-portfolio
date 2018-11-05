@@ -12,6 +12,8 @@ This is my personal portfolio and is a work in progress as I complete the Coding
 * Node.js
 * Moment.js
 * Inquirer NPM
+* Express & Express-Handlebars
+* MySQL
 * Git
 * Mobile Responsiveness
 
