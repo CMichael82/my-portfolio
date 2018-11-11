@@ -172,6 +172,16 @@ nav {
 	height: 50px;
 	
 }
+
+.github2 {
+	position: absolute;
+	bottom: 60px;
+	right: 10px;
+	display: block;
+	margin: 20px;
+	height: 50px;
+}
+
 /* Portfolio Card Styling - STARTS */
 
 /* Resize contact icons */

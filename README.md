@@ -14,6 +14,7 @@ This is my personal portfolio and is a work in progress as I complete the Coding
 * Inquirer NPM
 * Express & Express-Handlebars
 * MySQL
+* Sequelize
 * Git
 * Mobile Responsiveness
 
