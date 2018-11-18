@@ -204,3 +204,11 @@ nav {
 	background-color: whitesmoke;
 	padding: 10px;
 	}
+
+	.da-burger {
+		margin-left: auto;
+    margin-right: auto;
+		max-height: 60%;
+		max-width: 60%;
+	}
+	
