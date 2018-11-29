@@ -158,6 +158,10 @@ nav {
 	text-align: center;
 }
 
+.card-img{
+	height: 50%;
+}
+
 .techUsed{
 	font-size: 16px;
 	font-style: italic;
@@ -208,7 +212,7 @@ nav {
 	.da-burger {
 		margin-left: auto;
     margin-right: auto;
-		max-height: 60%;
-		max-width: 60%;
+		max-height: 80%;
+		max-width: 80%;
 	}
 	
